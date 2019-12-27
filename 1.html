@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 필기노트-HTML</title>
+  <meta charset="utf-8">
+</head>
+<body>
+<h1><a href="index.html">WEB1 필기노트</a></h1>
+리스트 생성 ul과 ol의 차이는 아래와 같다.
+<ul>
+  <li>1. HTML</li>
+  <li>2. CSS </li>
+  <li>3. JAVASCRIPT</li>
+</ul>
+<ul>
+  <li>tag</li>
+  <li>attribute</li>
+</ul>
+<ol>
+  <li><a href="1.html">1. HTML</a></li>
+  <li><a href="2.html">2. CSS</a> </li>
+  <li><a href="3.html">3. JAVASCRIPT</a></li>
+</ol>
+<ol>
+  <li>tag</li>
+  <li>attribute</li>
+</ol>
+
+<h2>HTML</h2>
+<h2>웹을 지배하는 가장 큰 문법을 배워보자. tag를 배워보자</h2>
+strong 은 진하게 강조하는 볼드체로 만든다.<strong>html <u>tag</u></strong>
+<br>밑줄치는 방법은 underline 이다. "u"를 쓴다
+<br>h1~6 tag는 헤딩의 글씨 크기이다. 글씨가 일반보다 굵고, 줄바꾸기 가 된다.
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+
+<h2>통계를 기반으로 공부하라.</h2>
+<p style="margin-top:10px;"> <strong><u>frequecy of html tag</u></strong> 를 쳐보면
+가장 사용빈도가 높은 tag 가 표시된다. 보통의 웹페이지는 25
+개 정도의 tag로 이뤄진다.다른 좋은 예로는 중국어를 배울때, frequency of chinese words 를
+인터넷에 찾아보면 사용빈도가 가장높은 단어가 나열되어 있다.</p>
+
+<h2>인기있는 tag</h2>
+<p style="margin-top:10px;">
+google 에서 html new line tag 를 쳐보자
+한줄을 띄워쓰기 위해 br tag를 쓴다. 여러줄은 br 을 여러번 친다
+단락을 표현하기 위해 br 말고 paragraph, "p"이 있다 이것은 br과 다르게 시작과 끝이 있다.
+"p" 는 <strong>정보</strong>로서 "br"보다 더욱 유용하다.
+이는 <strong><u>검색엔진이 더욱 효율적</u></strong>으로 찾을수 있기 때문이다.
+이는 web의 <strong><u>accessiblity</u></strong> 를 결정한다.
+시각장애와 같은 경우, 정보로부터 소외되지 않기 위해, coding 언어를 써야 컴퓨터가 읽어주는
+프로그램들(예:screen reader)을 사용할수 있다.
+web의 문자를 통으로 이미지를 만들경우 access 가 불가하다.</p>
+
+<h2>CSS 는 개별적으로 추가 공부하자</h2>
+<p style="margin-top:10px;"> css 는 Cascading Style Sheets 이다.
+<a href = "https://www.w3schools.com/html/html_css.asp"> 여기클릭</a>
+</p>
+
+<h2> 이미지를 삽입하는 방법, 속성(attribute)넣는법</h2>
+<p><a href="https://unsplash.com">unsplash.com</a>에서 고퀄의 이미지를 다운받을수 있다.
+<img src="boat.jpg" width="50%">
+<br>속성의 위치는 상관이 없다.속성으로 더 많은 의미를 부여한다.
+</p>
+
+<h2>부모(parent) 자식(child) tag 배우기, 목차를 만들어보자</h2>
+<p><br>목차는 영어로 LIST 임으로 "li" tag 를 사용한다.
+<BR>여러 줄에 같은 tag 를 달려하면 "CTRL" 을 홀드하고 해당줄에 클릭,클릭한다
+<BR>리스트를 구분하기 위해 "ul"(unordered list) tag를 사용한다.
+<BR>"TAB" 버튼을 사용하면 WORD와 같이 들여쓰기가 된다
+<BR>만약 리스트가 1억개면, 이를 개별적으로 지우고, 시리즈 번호를 바꿔야 한다.
+<br>이를 방지하기 위해 자동번호 생성이 가능한 "ol"(ordered list) tag를 사용한다.</p>
+
+<h2>구조를 만들어보자</h2>
+<br>"title"tag를 사용해서 웹페이지의 제목을 정해준다.
+<br>검색엔진은 "title" 을 책표지/제목처럼 사용한다.
+<br>언어는 utf8이란 방식을 저장된다. 다른 언어를 웹에서 인식하지 못할수 있다.
+<br>사용하는 방법. "meta"와 "charset" tag를 사용한다. 여기서 "char" 은 character(문자)의
+<br>약자이고 "set"은 setting(규칙)의 약자이다. 이는 utf-8로 문서를 읽어라고 지정해준것이다.
+<br>"html"은 상위 tag 이고 "head""body"는 이의 종속tag로 제목과 본문을 나눠준다.
+
+<h2> 검색엔진을 위한 "tag"는 "a"(anchor)로 링크이다 </h2>
+구글에 <a href="https://www.w3.org/TR/html52/">"html specification"</a>을 쳐보자
+
+<h2> 웹사이트를 완성해보자, 책 처럼 엮어보자</h2>
+<br>"a ref" 와 "h1", "ol" tag를 사용하여 링크를 책처럼 엮는다
+<br>왼쪽의 project>폴더>파일을 duplicate 해서 만든 링크로 엮을 파일을 생성한다.
+
+<h2>internet 의 역사</h2>
+<br>web 과 internet 의 차이, 인터넷은 도로, web은 자동차에 비유
+<br>1960년대통신시스템의 필요성(중앙시스템에서 분산된 통신시스템) - 인터넷 발전
+<br>web의 시초는 swiss 에서 탄생, 스위스에는 cern 연구소 lhc 감입자 장비가 있다.
+<br>아주 작은 입자를 보는 기계. 튜브내에서 작은 입자를 충돌했을시 어떤 현상이 일어나나?
+<br>피터 힉스의 호기심, 팀 버너스리의 enquire 프로그램이 web의 전신
+<br>인터넷의 동작원리. 정보공유를 위해 최소 2개의 프로그램 필요.
+<br>web browser(client) 및 web server(server) 가 있었음.
+<br>web hositng(3자 회사에 맡김) 또는 web server(개인)
+<br>web hosting 을 먼저 하고, web server 로 옮겨라
+
+<h2>GITHUB 를 이용한 WEB HOSTING</h2>
+<br>무료 web hosting 으로 <a href="https://github.com">github</a>를 사용하자
+github 에 로그린후 new repositories 버튼을 이용하여 저장소를 생성한다.
+
+
+</body>
+</html>
