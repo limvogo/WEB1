@@ -1,8 +1,13 @@
 <!doctype html>
 <html>
 <head>
-  <title>WEB1 필기노트-CSS</title>
+  <title>WEB2 필기노트-CSS</title>
   <meta charset="utf-8">
+  <style>
+  a { color:purple;
+    text-decoration: none;
+  }
+  </style>
 </head>
 <body>
 <h1><a href="index.html">WEB1 필기노트</a></h1>
@@ -10,7 +15,9 @@
 <ol>
   <li><a href="1.html">1. HTML</a></li>
   <li><a href="2.html">2. CSS</a> </li>
-  <li><a href="3.html">3. JAVASCRIPT</a></li>
+  <li><a href="3.html">3. JAVASCRIPT</a>
+  <li><a href="4.html">4. PROJECT</a>
+  </li>
 </ol>
 <ol>
   <li>tag</li>
@@ -23,33 +30,31 @@
 <a href = "https://www.w3schools.com/html/html_css.asp"> 여기클릭</a>
 </p>
 
-<h2> 이미지를 삽입하는 방법, 속성(attribute)넣는법</h2>
-<p><a href="https://unsplash.com">unsplash.com</a>에서 고퀄의 이미지를 다운받을수 있다.
-<img src="boat.jpg" width="50%">
-<br>속성의 위치는 상관이 없다.속성으로 더 많은 의미를 부여한다.
+<h3>CSS 는 html 을 보다 시각적으로 바꾸는데 사용한다.</h3>
+<p><br>html 문법에 tag를 추가한다.
+<br>font color= "색상"을 사용하여 다른색깔을 표현한다.
+<br>만약에 리스트가 1억개가 넘는다면 이를 어떻게 바꿀수 있을까?
+<br>"font color"는 개별적으로 모두 바꿔야 하는 단점이 있다.
+
+<ol>
+  <li><a href="1.html"><font color="green">1. HTML</font></a></li>
+  <li><a href="2.html"><font color="red">2. CSS</font></a> </li>
+  <li><a href="3.html"><font color="blue">3. JAVASCRIPT</font></a></li>
+</ol>
 </p>
 
-<h2>부모(parent) 자식(child) tag 배우기, 목차를 만들어보자</h2>
-<p><br>목차는 영어로 LIST 임으로 "li" tag 를 사용한다.
-<BR>여러 줄에 같은 tag 를 달려하면 "CTRL" 을 홀드하고 해당줄에 클릭,클릭한다
-<BR>리스트를 구분하기 위해 "ul"(unordered list) tag를 사용한다.
-<BR>"TAB" 버튼을 사용하면 WORD와 같이 들여쓰기가 된다
-<BR>만약 리스트가 1억개면, 이를 개별적으로 지우고, 시리즈 번호를 바꿔야 한다.
-<br>이를 방지하기 위해 자동번호 생성이 가능한 "ol"(ordered list) tag를 사용한다.</p>
+<h3>아래는 CSS, "style" 를 사용하여 위와 동일한 효과를 얻는 방법이다.</h3>
+<p>동일/중복된 내용을 한번에 해결할 수 있다는 효율적인 장점이 있다.
+<br>"style tag"와 "style 속성"을 사용한다.
 
-<h2>구조를 만들어보자</h2>
-<br>"title"tag를 사용해서 웹페이지의 제목을 정해준다.
-<br>검색엔진은 "title" 을 책표지/제목처럼 사용한다.
-<br>언어는 utf8이란 방식을 저장된다. 다른 언어를 웹에서 인식하지 못할수 있다.
-<br>사용하는 방법. "meta"와 "charset" tag를 사용한다. 여기서 "char" 은 character(문자)의
-<br>약자이고 "set"은 setting(규칙)의 약자이다. 이는 utf-8로 문서를 읽어라고 지정해준것이다.
-<br>"html"은 상위 tag 이고 "head""body"는 이의 종속tag로 제목과 본문을 나눠준다.
+"<!-- 이안에 어떤것을 넣어도 web에서 무시한다 -->"
 
-<h2> 검색엔진을 위한 "tag"는 "a"(anchor)로 링크이다 </h2>
-구글에 <a href="https://www.w3.org/TR/html52/">"html specification"</a>을 쳐보자
-
-<h2> 웹사이트를 완성해보자, 책 처럼 엮어보자</h2>
-"a ref" 와 "h1", "ol" tag를 사용하여 링크를 책처럼 엮는다
+<ol>
+  <li><a href="1.html">1. HTML</a></li>
+  <li><a href="2.html" style="color:blue; text-decoration:underline;">2. CSS</a> </li>
+  <li><a href="3.html">3. JAVASCRIPT</a></li>
+</ol>
+</p>
 
 </body>
 </html>
